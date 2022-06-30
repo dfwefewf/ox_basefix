@@ -90,14 +90,6 @@ tasks:
     src: ./tmp/ox_inventory.zip
     dest: ./resources
 
-  ## fivem-rance
-  - action: download_github
-    url: https://github.com/overextended/ox_appearance
-    path: ./tmp/ox_appearance.zip
-  - action: unzip
-    src: ./tmp/ox_appearance.zip
-    dest: ./resources
-
   ## npwd
   - action: download_file
     url: https://github.com/project-error/npwd/releases/latest/download/npwd.zip

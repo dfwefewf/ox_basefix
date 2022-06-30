@@ -90,8 +90,8 @@ tasks:
     src: ./tmp/ox_inventory.zip
     dest: ./resources
 
-  ## fivem-appearance
-  - action: download_file
+  ## fivem-rance
+  - action: download_github
     url: https://github.com/overextended/ox_appearance
     path: ./tmp/ox_appearance.zip
   - action: unzip
